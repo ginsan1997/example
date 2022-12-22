@@ -1,0 +1,879 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body, html {
+    margin: 0px !important;
+    background-image: url(../img/background.png) ;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed 
+  }
+
+  .share-btn  a {
+    color: #e3e3e3;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+}
+.share-btn  a:hover {
+    cursor: pointer;
+}
+
+.infotext {
+    display: none;
+    background-color: rgba(43, 42, 42, 1);
+    border-radius: 15px;
+    width: 283px;
+    height: 200px;
+    border-top: 2px solid #e3e3e3;
+    flex-direction: row;
+    position: absolute;
+    left: 37%;
+    top: 15%;
+    align-items: center;
+    text-align: justify;
+
+}
+
+.infotext span {
+    color: #e3e3e3;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.GameStats {
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1297px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.topBlock{
+    width: 100%;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(43, 42, 42, 1);
+}
+.nameweb {
+    display: flex;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    width: 264px;
+    flex-direction: row;
+    justify-content: space-around;
+    font-style: normal;
+
+}
+.nameweb span {
+    color: #EAEAEA;
+    text-decoration: none;
+}
+.forAD {
+    color: #EAEAEA;
+}
+
+
+
+#icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    overflow: hidden
+}
+
+#adicon {
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    margin-right: 8px
+}
+.forAD {
+    background-color: rgba(197, 78, 57, 1);
+    border-radius: 16px;
+    width: 200px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    border: none;
+    margin-left: 30px;
+}
+.forAD:hover {
+    background-color: rgba(235, 104, 81, 1);
+    cursor: pointer;
+    
+}
+.forAD:active {
+    background-color:  rgba(208, 56, 29, 1);
+    cursor: pointer;
+    
+}
+
+
+
+
+.iconandname {
+    display: flex;
+    width: 1296px;
+    align-items: center;
+
+}
+.centertop{
+    width: 1296px;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+.middleBlock{
+    height: 330px;
+    align-items: center;
+}
+
+.btn_search{
+    width: 81px;
+    height: 56px;
+    background-color: #C54E39;
+    border: none;
+    border-radius: 16px;
+    position: inherit;
+    margin-left: -10px;
+}
+.btn_search:hover {
+    background-color: rgba(235, 104, 81, 1);
+    cursor: pointer;
+    
+}
+.btn_search:active {
+    background-color:  rgba(208, 56, 29, 1);
+    cursor: pointer;
+    
+}
+
+.imgSrc{
+    width: 24px;
+    height: 24px;
+}
+
+.searchText{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 2px solid  #E95035;
+    background: #FFF7F5
+}
+
+
+
+
+input[type=text] {
+     padding-left: 14px;
+     font-size: 17px;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     }
+
+     ::placeholder {
+    color: rgba(135, 135, 135, 1);
+        }
+
+input {
+    border: none;
+     }
+.searchblock{
+    width: 588px;
+    height: 56px !important;
+    display: flex;
+    margin-top: 13px
+}
+
+.searchText:focus-visible {
+    outline: none;
+    background: rgb(255, 239, 236);
+
+}
+
+.idSteam {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    color:rgba(252, 252, 252, 1);
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.imgInfo {
+    margin-left: 17px;
+    margin-bottom: 3px;
+    width: 32px;
+    height: 32px;
+}
+.SteamInfo {
+    display: flex;
+    align-items: center;
+}
+.leftMiddleBlock {
+    width: 636px;
+    height: 160px;
+    background-color: rgba(43, 42, 42, 0.63);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Блок статистики общий */
+.rightBlock {
+    width: 636px;
+    height: 205px;
+    background-color: rgba(43, 42, 42, 0.63);
+    display: flex;
+    flex-direction: row;
+    border-radius: 16px;
+}
+
+
+.baseStatLeft {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px;
+    height: 85px;
+    width: 277px;
+
+}
+.mainStat {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    line-height: 35px;
+    width: 320px;
+    height: 100%;
+}
+
+.mainStat2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    line-height: 30px;
+    margin-right: 20px;
+}
+.profileIMG {
+    display: block;
+}
+.profileIMG img {
+    width: 81px;
+    height: 81px;
+    border-radius: 8px;
+}
+.NameProfile {
+    margin-left: 15px;
+    margin-bottom: 12px;
+    width: 181px;
+    height: 30px;
+    overflow: hidden;
+}
+.NameProfile span {
+    color: rgba(252, 252, 252, 1);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.PlayTime {
+    margin-left: 15px;
+}
+.PlayTime #houringame{
+    color: rgba(252, 252, 252, 1);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 600;
+}
+.PlayTime #houringameWeek{
+    color: rgba(252, 252, 252, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+}
+
+.statisctic img {
+    width: 24px;
+    height: 24px;
+    margin-right: 9px;
+    font-weight: 600;
+    
+
+}
+.statisctic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: #EAEAEA;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.statisctic2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: #EAEAEA;
+    font-weight: 600;
+}
+.statisctic2 img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+
+}
+
+.staticLeft {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-right: 20px;
+    
+}
+
+
+
+.static {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.staticend {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftpart {
+    width: 318px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.rightpart {
+    width: 320px;
+    margin-top: 18px;
+
+}
+
+.numbersBase{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: #EAEAEA;
+    align-items: center;
+    font-weight: 600;
+}
+.blockLine {
+    width: 2px;
+    background-color:  rgba(43, 42, 42, 0.48);
+    height: 165px;
+    margin-top: 20px;
+}
+
+/* Нижних блок */
+/* Убийства */
+.killInfo {
+    width: 1296px;
+    height: 602px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 25px 25px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+
+}
+.navBaseInfo {
+    width: 1296px;
+    height: 46px;
+    background-color: rgba(43, 42, 42, 0.63);
+    margin-left: auto;
+    margin-right: auto;
+}
+.baseInfoMain {
+    display: flex;
+}
+
+
+.baseInfoLeft {
+    width: 616px;
+    height: 512px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 13px;
+
+}
+
+.baseInfoRight {
+    width: 616px;
+    height: 512px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 5px;
+
+}
+.lineBaseInfo {
+    width: 616px;
+    height: 39px;
+    background-color: rgba(64, 59, 57, 0.44);
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+}
+.numbersBaseInfo{
+    margin-right: 10px;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #EAEAEA;
+    align-items: center;
+
+}
+
+
+/* Смерти */
+.deathInfo {
+    width: 1296px;
+    height: 602px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 25px 25px 25px;
+    display: none;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+
+
+/* Выстрелы */
+.FireInfo {
+    width: 1296px;
+    height: 602px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 25px 25px 25px;
+    display: none;
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+}
+
+
+/* Добыча */
+.gatherInfo {
+    width: 1296px;
+    height: 602px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 25px 25px 25px;
+    display: none;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+/* прочее */
+.elseInfo {
+    width: 1296px;
+    height: 602px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 25px 25px 25px;
+    display: none;
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+}
+
+.btn{    
+    width: 121px;
+    height: 46px;
+    background-color: #FFF7F5;
+    color: rgba(43, 42, 42, 1);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    align-items: center;
+    font-weight: 600;
+    border: none;
+}
+.btn span {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+    .active, .btn:hover {
+        background-color: #E95035;
+        color: #FFF7F5;
+        border: none
+    }
+
+    .navBTN {
+    height: 48px;
+    display: flex;
+    }
+.baseStats {
+    display: flex;
+    width: 1296px;
+    height: 570px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    margin-top: -147px;
+    }
+#btn_kills {
+    border-radius: 15px 0px 0px 0px;
+}
+
+#btn_else{
+    border-radius: 0px 15px 0px 0px;
+}
+.banner{
+    width: 622px;
+    height: 311px;
+    margin-top: 12px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+}
+.helpText{
+    display: none;
+    width: 100px;
+    height: 50px;
+    background-color:rgba(217, 217, 217, 1) ;
+    color: rgba(43, 42, 42, 1);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.imgInfo:hover + .helpText {
+    display: block;
+    width: 350px;
+    height: 150px;
+    background-color:#CFD9E7;
+    color: rgba(43, 42, 42, 1);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+.adIMG {
+    width: 512px;
+    height: 256px;
+}
+
+/* Блок друзей */
+.friendslist {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    width: 622px;
+    height: 180px;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-sizing: content-box;
+    justify-content: flex-start;
+}
+
+
+
+
+
+/* Scroll Bar Friendlist */
+.friendslist::-webkit-scrollbar {
+    width: 15px; /* ширина для вертикального скролла */
+    height: 8px; /* высота для горизонтального скролла */
+    background-color: rgba(92, 92, 92, 0.68);
+    border-radius: 5px;
+}
+
+/* ползунок скроллбара */
+.friendslist::-webkit-scrollbar-thumb {
+    background-color: rgba(196, 78, 57, 0.68);
+    border-radius: 5px;
+}
+
+.friendslist::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(235, 104, 81, 1);
+}
+
+
+
+
+
+
+.profileFriend {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.profileFriend span {
+    overflow: hidden;
+    width: 83px;
+    height: 15px;
+    color: #CFD9E7;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+.NameProfileFriend {
+    color: #CFD9E7;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    overflow: hidden;
+    width: 83px;
+    height: 18px;
+}
+
+.NameProfileFriend a {
+    text-decoration: none;
+}
+
+.frindsstatchecktext {
+    color: #CFD9E7;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.friendListCheck {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-sizing: content-box;
+}
+
+#ajaxbtn {
+    background-color: rgb(255 255 255 / 0%);
+    border-radius: 16px;
+    width: 200px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #D3513A;
+    border: none;
+    margin-top: 2%;
+
+}
+
+#ajaxbtn:hover {
+    color: #EA7762;
+    cursor: pointer; 
+}
+
+.bg {
+    height: 1000px;
+}
+
+.btnArea {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Spiner */
+#imgSpinner {
+    width: 30px;
+}
+#imgSpinnerBlock {
+    display: none;
+    justify-content: center;
+    width: 622px;
+    margin-top: 35px;
+}
+.loadText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 622px;
+}
+.MainStatLeftBlock {
+    display: flex;
+}
+
+.centerblock {
+    display: flex;
+    width: 1296px;
+    height: 602px;
+    background-color: rgba(43, 42, 42, 0.63);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 25px 25px 25px;
+}
+
+#textblockFriends {
+    width: 100%;
+    color: #CFD9E7;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 40px;
+    width: 376px;
+    text-align: center;
+
+}
+
+.creators {
+    text-align: center;
+    height: 60px;
+    
+}
+.creators span{
+    line-height: 18.15px;
+    margin-left: auto;
+    margin-right: auto;
+    color:rgba(187, 187, 187, 1);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.supported {
+    color:rgba(197, 78, 57, 1);
+    background-color: rgba(255, 226, 221, 0);
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.supported:hover {
+    color:#EA7762;
+    cursor: pointer;
+}
+
+/* Loader Effects ajax */
+
+@keyframes loader {
+    0% {
+        top: 16px;
+        left: 16px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+    100% {
+        top: 0;
+        left: 0;
+        width: 32px;
+        height: 32px;
+        opacity: 0;
+    }
+}
+
+.loader {
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+.loader div {
+    position: absolute;
+    border: 4px solid rgba(197, 78, 57, 1);
+    border-radius: 50%;
+    animation: loader 1s ease-out infinite;
+}
+
+.loader div:nth-child(2){
+    animation-delay: -0.5s;
+}
+
+
+
+
+.noDataSteam {
+    width: 100%;
+    height: 50px;
+    background-color: #ff583a6a;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.noDataSteam span {
+    color: #CFD9E7;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.topCrown {
+    width: 16px;
+}
